@@ -1,0 +1,7 @@
+name: easy-skyblock
+version: '${project.version}'
+main: me.slashed.easyskyblock.EasySkyblock
+api-version: 1.19
+commands:
+  shop:
+    description: Opens the GUI shop.

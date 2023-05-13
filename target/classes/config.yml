@@ -1,0 +1,44 @@
+shop:
+  categories:
+    - name: "Misc."
+      description: "Here you find Misc. items!"
+      block: "OAK_SIGN"
+    - name: "Blocks"
+      description: "Here you find building materials that you can buy in bulk!"
+      block: "COBBLESTONE"
+    - name: "Valuables"
+      description: "Here you find ores that you cannot find in skyblock because you arei nt the fuck king sky"
+      block: "DIAMOND"
+    - name: "Test"
+      description: "uno dos tres quatros"
+      block: "BONE"
+  items:
+    -
+        -
+          price: 100
+          bulk: false
+          item: "LAVA_BUCKET"
+        -
+          price: 50
+          bulk: false
+          item: "WATER_BUCKET"
+        -
+          price: 15
+          bulk: true
+          item: "ENDER_PEARL"
+    -
+        -
+          price: 5
+          bulk: true
+          item: "COBBLESTONE"
+        -
+          price: 8
+          bulk: true
+          item: "OAK_PLANKS"
+  options:
+    allow-custom-amounts: true
+chestshop:
+  # If the next option is true, you need currency withdrawal to be enabled as well.
+  buy-chests-require-withdrawal: false # If this is false, the buy chests take directly from your balance BUT you can set a limit. (as a player)
+currency:
+  withdrawal: true
